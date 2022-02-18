@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+body{
+    font-weight: 400;
+    color: #fff;
+    background-color: green;
+    font-size: 25px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#todos_input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    max-width: 800px;
+}
+#todo_add_btn{
+    color: #55BB06;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+li{
+    display: flex;
+}
+.todo-list-div{
+    margin-top: 30px;
+}
+.checkbox{
+    margin-top: 15px;
+    margin-right: 20px;
+    
+}
+.par{
+    max-width: 750px;
+    width: 100%;
+}
+.lined p{
+    text-decoration: line-through;
+}
+#del{
+    color: red;
+}
+input[type="checkbox"] { 
+    filter: invert(100%) hue-rotate(60deg) brightness(1.7);
+}

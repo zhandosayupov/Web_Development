@@ -1,0 +1,1 @@
+print((sum([int(i) ** 2 for i in [input() for i in range(2)]])) ** 0.5)
